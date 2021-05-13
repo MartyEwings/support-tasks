@@ -1,13 +1,8 @@
 #!/bin/bash
 declare PT__installdir
-declare PT_command
 # shellcheck disable=SC1090
 source "$PT__installdir/support_tasks/files/common.sh"
 # shellcheck disable=SC2046
-
-delare $command
-
-
 
 if [ -e "/etc/sysconfig/pe-puppetserver" ] || [ -e "/etc/default/pe-puppetserver" ] # Test to confirm this is a Puppetserver
 then
