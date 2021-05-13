@@ -1,5 +1,6 @@
 #!/bin/bash
 declare PT__installdir
+declare PT_command
 # shellcheck disable=SC1090
 source "$PT__installdir/support_tasks/files/common.sh"
 # shellcheck disable=SC2046

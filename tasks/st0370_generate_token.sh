@@ -1,5 +1,8 @@
 #!/bin/bash
 declare PT__installdir
+declare PT_user
+declare PT_password
+
 # shellcheck disable=SC1090
 source "$PT__installdir/support_tasks/files/common.sh"
 # Generate Token for requested user, for consumption in other tasks
