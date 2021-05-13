@@ -7,5 +7,8 @@
       "description": "The Puppet Master API Commands to Run",
       "type": "Enum[ get_all_services_status, manual_gitlab_webhook_hit, create_role_cd4pe, list_tokens  ]"
     }
-  }
+  },
+   "implementations": [
+    {"name": "st0373_api_calls.sh", "requirements": ["shell"], "files": ["support_tasks/files/common.sh"], "input_method": "environment"}
+  ]
 }

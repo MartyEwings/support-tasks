@@ -13,5 +13,9 @@
     }
     
   
-}
+},
+
+  "implementations": [
+    {"name": "st0370_generate_token.sh", "requirements": ["shell"], "files": ["support_tasks/files/common.sh"], "input_method": "environment"}
+  ]
 }
